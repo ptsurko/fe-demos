@@ -1,0 +1,9 @@
+<h2>Heroes list</h2>
+<div>
+  <input type="text" ng-model="ctrl.query"><button ng-click="ctrl.search()">Search</button>
+</div>
+<ul>
+  <li ng-repeat="hero in ctrl.heroes">
+    <a ui-sref="heroes.details({heroId: hero.id})">{{hero.name}}</a>
+  </li>
+</ul>

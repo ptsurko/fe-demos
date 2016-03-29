@@ -1,0 +1,22 @@
+{
+  "name": "uirouter",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ptsurko <pavel.tsurko@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.2.18",
+    "angular": "angularjs#^1.5.2"
+  }
+}
